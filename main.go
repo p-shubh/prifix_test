@@ -28,10 +28,13 @@ func main() {
 				count = count + 1
 			}
 		}
+			if count == len(find) {
+			check = check + 1
+		}
 
-	}
+			}
 
-	fmt.Println("the count is ", count)
+			fmt.Println("the count is ", check)
 
 	// 	// for i := 0; i < len(Input); i++ {
 	// 	// 	for j := 0; j < len("at"); j++ {
