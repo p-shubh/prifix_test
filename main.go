@@ -24,7 +24,7 @@ func main() {
 		count = 0
 
 		for j := 0; j < len(find); j++ {
-			if str1[j] == find[j] {
+			if find[j] == str1[j] {
 				count = count + 1
 			}
 		}
